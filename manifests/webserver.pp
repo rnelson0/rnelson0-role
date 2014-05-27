@@ -23,6 +23,6 @@
 # Copyright 2014 Rob Nelson
 #
 class role::webserver {
-  include profile::web
+  include profile::apache
   include profile::base  # All roles should have the base profile
 }
