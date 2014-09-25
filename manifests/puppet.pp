@@ -27,6 +27,5 @@ class role::puppet {
   include profile::puppet_master
   include profile::puppetdb
   include profile::hiera
-  include profile::mcollective::users
-  include profile::mcollective::all
+  include profile::mcollective::server
 }
