@@ -26,4 +26,5 @@ class role::build {
   include ::profile::base  # All roles should have the base profile
   include ::profile::users::build
   include ::profile::build
+  include ::profile::rvm
 }
