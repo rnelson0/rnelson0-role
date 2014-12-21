@@ -1,6 +1,10 @@
-# == Class: role::dhcp
+# == Class: role::dns
 #
-# DHCP Service role
+# DNS Service role
+#
+# === Examples
+#
+#  include role::dns
 #
 # === Authors
 #
@@ -10,7 +14,7 @@
 #
 # Copyright 2014 Rob Nelson
 #
-class role::dhcp {
+class role::dns {
   include profile::base  # All roles should have the base profile
-  include profile::dhcp
+  include profile::dns
 }
