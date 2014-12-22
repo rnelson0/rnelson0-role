@@ -26,5 +26,10 @@ class role::yumrepo {
   include profile::base  # All roles should have the base profile
   include profile::yumrepo
 
-  create_resources('::createrepo', hiera_hash('yumrepos'))
+  $repodirs = hiera('repodirs')
+  file { $repodirs:
+    ensure => directory,
+  }
+  $yumrepos = hiera_hash('yumrepos', undef) 
+  create_resources('::createrepo', $yumrepos, {require => File[$repodirs]} )
 }
