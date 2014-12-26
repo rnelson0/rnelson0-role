@@ -2,18 +2,6 @@
 #
 # Role for nodes providing the service 'build'
 #
-# === Parameters
-#
-# None
-#
-# === Variables
-#
-# None
-#
-# === Examples
-#
-#  include ::role::build
-#
 # === Authors
 #
 # Rob Nelson <rnelson0@gmail.com>
