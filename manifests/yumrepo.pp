@@ -2,18 +2,6 @@
 #
 # Yum repo Server role
 #
-# === Parameters
-#
-# None
-#
-# === Variables
-#
-# None
-#
-# === Examples
-#
-#  include role::yumrepo
-#
 # === Authors
 #
 # Rob Nelson <rnelson0@gmail.com>

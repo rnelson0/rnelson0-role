@@ -2,18 +2,6 @@
 #
 # DHCP Server role
 #
-# === Parameters
-#
-# None
-#
-# === Variables
-#
-# None
-#
-# === Examples
-#
-#  include role::dhcp
-#
 # === Authors
 #
 # Rob Nelson <rnelson0@gmail.com>

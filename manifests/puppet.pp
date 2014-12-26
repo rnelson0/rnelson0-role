@@ -2,18 +2,6 @@
 #
 # Puppet Master role
 #
-# === Parameters
-#
-# None
-#
-# === Variables
-#
-# None
-#
-# === Examples
-#
-#  include role::puppet
-#
 # === Authors
 #
 # Rob Nelson <rnelson0@gmail.com>

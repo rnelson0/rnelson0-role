@@ -2,18 +2,6 @@
 #
 # Webserver role
 #
-# === Parameters
-#
-# None
-#
-# === Variables
-#
-# None
-#
-# === Examples
-#
-#  include role::webserver
-#
 # === Authors
 #
 # Rob Nelson <rnelson0@gmail.com>
