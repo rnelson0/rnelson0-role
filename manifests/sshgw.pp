@@ -1,6 +1,10 @@
-# == Class: role::dhcp
+# == Class: role::sshgw
 #
-# DHCP Service role
+# SSH VPN Gateway Server role
+#
+# === Examples
+#
+#  include role::sshgw
 #
 # === Authors
 #
@@ -10,7 +14,7 @@
 #
 # Copyright 2014 Rob Nelson
 #
-class role::dhcp {
+class role::sshgw {
   include profile::base  # All roles should have the base profile
-  include profile::dhcp
+  include profile::sshgw
 }
